@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "auctionmenu",
+  "version": "1.0.0",
+  "name": "Auction Menu",
+  "description": "Press a key, pick a block, time and price, and start an auction.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.auctionmenu.AuctionMenuClient"] },
+  "depends": { "fabricloader": ">=0.18.1", "minecraft": "1.21.11", "fabric-api": "*" }
+}

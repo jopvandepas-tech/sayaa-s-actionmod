@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "auctionmenu",
+  "version": "1.0.0",
+  "name": "Auction Menu",
+  "description": "Press a key, pick a block, time and minimum bid, and track /pay bids on screen.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.auctionmenu.AuctionMenuClient"] },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
